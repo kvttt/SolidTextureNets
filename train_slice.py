@@ -354,7 +354,7 @@ for img in input_textures_torch:
 
 # training parameters
 slice_size = 128 # training slice resolution (best if same as examples)
-iterations = 3000
+iterations = 1000
 show_iter = 10 # display every show_iter iterations
 save_params = 1000 # save parameters every save_params iterations
 save_slice = 100 # save generated slice every save_slice iterations
